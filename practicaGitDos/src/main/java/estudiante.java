@@ -41,4 +41,9 @@ public class estudiante extends persona {
 		ordenador mipc = new ordenador();
 		return mipc.color();
 	}
+        
+        public void holaCompadre()
+        {
+            System.out.println("Hola Compadre");
+        }
 }
